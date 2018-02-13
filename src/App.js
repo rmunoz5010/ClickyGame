@@ -1,18 +1,18 @@
 import React, { Component } from 'react';
 import './App.css';
-import dogs from './dogs.json'
+import cats from './cats.json'
 import Wrapper from './components/Wrapper'
 import Navpills from './components/Navpills'
 import Title from './components/Title'
-import DogCard from './components/DogCard'
+import CatCard from './components/CatCard'
 
 class App extends Component {
     state = {
         message: "Click an image to begin!",
         topScore: 0,
         curScore: 0,
-        dogs: dogs,
-        unselectedDogs: dogs
+        cats: cats,
+        unselectedCats: cats
     }
 
     componentDidMount() {
@@ -25,32 +25,32 @@ class App extends Component {
         }
     }
 
-    selectDog = breed => {
-        const findDog = this.state.unselectedDogs.find(item => item.breed === breed);
+    selectCat = breed => {
+        const findCat = this.state.unselectedCats.find(item => item.breed === breed);
 
-        if(findDog === undefined) {
-            // failure to select a new dog
+        if(findCat === undefined) {
+            // failure to select a new cat
             this.setState({ 
                 message: "You guessed incorrectly!",
                 topScore: (this.state.curScore > this.state.topScore) ? this.state.curScore : this.state.topScore,
                 curScore: 0,
-                dogs: dogs,
-                unselectedDogs: dogs
+                cats: cats,
+                unselectedcats: cats
             });
         }
         else {
-            // success to select a new dog
-            const newDogs = this.state.unselectedDogs.filter(item => item.breed !== breed);
+            // success to select a new cat
+            const newCats = this.state.unselectedcats.filter(item => item.breed !== breed);
             
             this.setState({ 
                 message: "You guessed correctly!",
                 curScore: this.state.curScore + 1,
-                dogs: dogs,
-                unselectedDogs: newDogs
+                cats: cats,
+                unselectedcats: newCats
             });
         }
 
-        this.shuffleArray(dogs);
+        this.shuffleArray(cats);
     };
 
     render() {
@@ -63,11 +63,11 @@ class App extends Component {
                 />
                 <Title />
                 {
-                    this.state.dogs.map(dog => (
-                        <DogCard
-                            breed={dog.breed}
-                            image={dog.image}
-                            selectDog={this.selectDog} 
+                    this.state.cats.map(cat => (
+                        <CatCard
+                            breed={cat.breed}
+                            image={cat.image}
+                            selectcat={this.selectcat} 
                             curScore={this.state.curScore}
                         />
                     ))

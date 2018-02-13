@@ -1,0 +1,62 @@
+[
+    {
+        "breed": "smolcat",
+        "image": "https://static.pexels.com/photos/126407/pexels-photo-126407.jpeg"
+    },
+    {
+        "breed": "Prettycat",
+        "image": "https://static.pexels.com/photos/20787/pexels-photo.jpg"
+    },
+    {
+        "breed": "grumpycat",
+        "image": "http://i0.kym-cdn.com/entries/icons/facebook/000/011/365/GRUMPYCAT.jpg"
+    },
+    {
+        "breed": "whitecat",
+        "image": "https://static.pexels.com/photos/104827/cat-pet-animal-domestic-104827.jpeg"
+    },
+    {
+        "breed": "cheetocat",
+        "image": "https://www.cats.org.uk/uploads/images/featurebox_sidebar_kids/grief-and-loss.jpg"
+    },
+    {
+        "breed": "tonguecat",
+        "image": "https://scontent-mia3-1.xx.fbcdn.net/v/t31.0-8/20424247_1555111257889700_5680883356518245934_o.jpg?oh=9ce5c7bcc69c899143d7e6d3f3ec2a0c&oe=5B182DE6"
+    },
+    {
+        "breed": "tinycat",
+        "image": "https://static.pexels.com/photos/127028/pexels-photo-127028.jpeg"
+    },
+    {
+        "breed": "wowcat",
+        "image": "http://a57.foxnews.com/images.foxnews.com/content/fox-news/lifestyle/2017/11/09/how-to-keep-cat-from-scratching-your-sofa-to-shreds/_jcr_content/par/featured_image/media-0.img.jpg/931/524/1510172827500.jpg?ve=1&tl=1&text=big-top-image"
+    },
+    {
+        "breed": "wutcat",
+        "image": "http://www.catster.com/wp-content/uploads/2017/08/A-fluffy-cat-looking-funny-surprised-or-concerned.jpg"
+    },
+    {
+        "breed": "kitteh",
+        "image": "https://cdn.pixabay.com/photo/2016/08/10/02/55/kitten-1582384_960_720.jpg"
+    },
+    {
+        "breed": "mustachecat",
+        "image": "http://static2.businessinsider.com/image/5654150584307663008b4ed8/this-tech-recruiter-owns-the-most-hipster-cat-on-instagram.jpg"
+    },
+    {
+        "breed": "happycat",
+        "image": "https://www.catprotection.com.au/wp-content/uploads/2014/11/4913786-cat-m.jpg"
+    },
+    {
+        "breed": "sneakycat",
+        "image": "https://s7d1.scene7.com/is/image/PETCO/new-kitten-guide-090517-cat-featured-355w-200h-d"
+    },
+    {
+        "breed": "blackKitteh",
+        "image": "https://www.factslides.com/imgs/black-cat.jpg"
+    },
+    {
+        "breed": "plscat",
+        "image": "https://i.ytimg.com/vi/5dsGWM5XGdg/hqdefault.jpg"
+    }
+]
